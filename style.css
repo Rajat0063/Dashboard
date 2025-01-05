@@ -3,12 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 codewithsadee
- */
-
-
-
-
+ * copyright 2025 Rajat0063 */
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -16,9 +11,7 @@
 
 :root {
 
-    /**
-     * colors
-     */
+    /* colors */
   
     --imperial-red_12: hsla(357, 86%, 57%, 0.12);
     --pacific-blue_12: hsla(188, 78%, 41%, 0.12);
@@ -44,9 +37,7 @@
     --white: hsl(0, 0%, 100%);
     --onyx: hsl(207, 8%, 21%);
   
-    /**
-     * typography
-     */
+    /* typography */
   
     --ff-vietnam: "Be Vietnam Pro", sans-serif;
   
@@ -64,23 +55,17 @@
     --fw-500: 500;
     --fw-600: 600;
   
-    /**
-     * transition
-     */
+    /* transition */
   
     --transition: 0.25s ease;
     --cubic-out: cubic-bezier(0.45, 0.85, 0.5, 1);
     --cubic-in: cubic-bezier(0.5, 0, 0.50, 0.95);
   
-    /**
-     * radius
-     */
-  
+    /* radius */
+    
     --radius-6: 6px;
   
-    /**
-     * shadow
-     */
+    /* shadow */
   
     --shadow-1: 0 12px 20px hsla(210, 10%, 23%, 0.07);
     --shadow-2: 0 2px 10px hsla(0, 0%, 0%, 0.04);
@@ -814,15 +799,11 @@
     #MEDIA QUERIES
   \*-----------------------------------*/
   
-  /**
-   * responsive for larger than 400px screen
-   */
+  /* responsive for larger than 400px screen */
   
   @media (min-width: 400px) {
   
-    /**
-     * HOME
-     */
+    /* HOME */
   
     .revenue-item:first-child { margin-bottom: 0; }
   
@@ -837,15 +818,11 @@
   
   
   
-  /**
-   * responsive for larger than 570px screen
-   */
+  /* responsive for larger than 570px screen */
   
   @media (min-width: 570px) {
   
-    /**
-     * REUSED STYLE
-     */
+    /* REUSED STYLE */
   
     .container {
       max-width: 550px;
@@ -854,26 +831,20 @@
   
   
   
-    /**
-     * HEADER
-     */
+    /* HEADER */
   
     .navbar-list,
     .user-action-list { padding-inline: 0; }
   
     
   
-    /**
-     * HOME
-     */
+    /* HOME */
   
     .card-price { --fs-2: 1.625rem; }
   
   
   
-    /**
-     * TASKS
-     */
+    /* TASKS */
   
     .tasks .card-meta-list { justify-content: flex-end; }
   
@@ -883,23 +854,17 @@
   
   
   
-  /**
-   * responsive for larger than 768px screen
-   */
+  /* responsive for larger than 768px screen */
   
   @media (min-width: 768px) {
   
-    /**
-     * REUSED STYLE
-     */
+    /* REUSED STYLE */
   
     .container { max-width: 700px; }
   
   
   
-    /**
-     * HOME
-     */
+    /* HOME */
   
     .progress-list {
       display: grid;
@@ -917,23 +882,17 @@
   
   
   
-  /**
-   * responsive for larger than 992px screen
-   */
+  /* responsive for larger than 992px screen */
   
   @media (min-width: 992px) {
   
-    /**
-     * REUSED STYLE
-     */
+    /* REUSED STYLE */
   
     .container { max-width: 950px; }
   
   
   
-    /**
-     * HEADER
-     */
+    /* HEADER */
   
     .menu-toggle-btn { display: none; }
   
@@ -967,9 +926,7 @@
   
   
   
-    /**
-     * HOME
-     */
+    /* HOME */
   
     .article.container { padding-block: 35px; }
   
@@ -981,17 +938,13 @@
   
   
   
-    /**
-     * PROJECTS
-     */
+    /* PROJECTS */
   
     .project-list { grid-template-columns: repeat(3, 1fr); }
   
   
   
-    /**
-     * TASKS
-     */
+    /* TASKS */
   
     .tasks .task-card {
       grid-template-columns: 1fr 0.5fr 0.5fr;
@@ -1000,9 +953,7 @@
   
   
   
-    /**
-     * FOOTER
-     */
+    /* FOOTER */
   
     .footer-list { margin-bottom: 0; }
   
@@ -1018,31 +969,23 @@
   
   
   
-  /**
-   * responsive for larger than 1200px screen
-   */
+  /* responsive for larger than 1200px screen */
   
   @media (min-width: 1200px) {
   
-    /**
-     * REUSED STYLE
-     */
+    /* REUSED STYLE */
   
     .container { max-width: 1150px; }
   
   
   
-    /**
-     * HEADER
-     */
+    /* HEADER */
   
     .navbar-list { gap: 25px; }
   
   
   
-    /**
-     * HOME
-     */
+    /* HOME */
   
     .card-price { --fs-2: 1.780rem; }
   
