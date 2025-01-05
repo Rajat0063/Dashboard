@@ -15,7 +15,7 @@
 
   This dashboard is fully responsive for all devices, <br/> Built using HTML, CSS, and JavaScript.
 
-  <a href="https://Rajat0063.github.io/Dashboard/"><strong>➥ Live Demo</strong></a>
+  <a href="https://dashboard-yr.vercel.app/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -23,7 +23,7 @@
 
 ### Demo Screeshots
 
-![Dashboard Desktop Demo](/assets/desktop.png "Desktop Demo")
+![Dashboard Desktop Demo](/assets/Desktop.png "Desktop Demo")
 
 ### Prerequisites
 
